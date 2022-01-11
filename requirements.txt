@@ -58,7 +58,6 @@ tensorflow==2.7.0
 tensorflow-estimator==2.7.0
 tensorflow-io-gcs-filesystem==0.23.1
 termcolor==1.1.0
-times @ file:///C:/Users/LENOVO/Downloads/times-0.7-py2.py3-none-any.whl
 typing-extensions==3.7.4.3
 urllib3==1.25.10
 virtualenv==20.4.2
