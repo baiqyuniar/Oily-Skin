@@ -1,16 +1,23 @@
 <!DOCTYPE html>
+<h2>Oily Skin Detection</h2>
+<p class="lead">Kelompok 2 <b>Cloud Computing</b></p>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Oily Skin Prediction</title>
-</head>
-<body>
-  <h1>Hasil Prediksi</h1>
-  <p>Berikut ini adalah gambar yang telah diupload:</p>
-  <p>
-    <div class="image"><img src="{{file}}"></div>
-    <h3>{{ result }}<br><span>{{ pred }}<br>{{ detect }}</span></h3>
-</div>
-  </p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oily Skin Detection</title>
+    <link rel="stylesheet" type="text/css" href="static/styles/predict/index.css" />
+    <script src="static/styles/predict/index.js"></script>
+  </head>
+
+  <body>
+    <p>Berikut ini adalah gambar yang telah diupload</p>
+    <h1>Hasil Prediksi</h1>
+      <p>
+      <div class="image"><img src="{{file}}"></div>
+      <h3>{{ detect }}<br>{{ result }}<br><span>{{ pred }}<br></span></h3>
+  </div>
+    </p>
+  </body>
 </html>

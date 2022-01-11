@@ -1,25 +1,21 @@
-<!-- <h1>Oily Skin Detection<h2>Kelompok 2</h2></h1>
-<form action="/predict" method="POST" enctype="multipart/form-data">
-    <input type="file" name="file">
-    <p>Put your files here</p>
-<tr><td><input type="submit" value="kirim"/></td><td></td></tr>
-</table>
-  </form> -->
+
 <!DOCTYPE html>
+<h2>Oily Skin Detection</h2>
+<p class="lead">Kelompok 2 <b>Cloud Computing</b></p>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oily Skin Detection</title>
-    <link rel="stylesheet" type="text/css" href="../styles/main/index.css" />
-    <script src="../styles/main/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/styles/main/index.css" />
+    <script src="static/styles/main/index.js"></script>
   </head>
   <body>
     <form action="/predict" method="POST" enctype="multipart/form-data">
-      <input type="file" multiple />
+      <input type="file" name="file" />
       <p>Drag your files here or click in this area.</p>
-      <button type="submit">Upload</button>
+      <button type="submit" value="kirim">Upload</button>
     </form>
   </body>
 </html>

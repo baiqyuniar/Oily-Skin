@@ -20,7 +20,7 @@ session = tf.compat.v1.Session(config=config)
 tf.compat.v1.keras.backend.get_session
 cv2.ocl.setUseOpenCL(False)
 
-label = ["normal","oily"]
+label = ["Normal Face","Oily Face"]
 
 def detect_face(img):
     str = ""
@@ -79,7 +79,7 @@ def return_prediction(model,detect_face,file):
 model = load_model('model/model.h5')
 
 model.compile(loss='binary_crossentropy',
-              optimizer='RMSProp',
+              optimizer='Adam',
               metrics=['accuracy'])
 
 UPLOAD_FOLDER = 'static/upload/'

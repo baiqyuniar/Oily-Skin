@@ -1,0 +1,79 @@
+html { 
+  background: url(http://cdn.magdeleine.co/wp-content/uploads/2014/05/3jPYgeVCTWCMqjtb7Dqi_IMG_8251-1400x933.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+body{
+  background: rgba(0, 0, 0, 0.5);
+}
+h2 {
+  font-family: "Cooper Black", Franklin Gothic Medium;
+  font-size: 40px;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 0;
+  text-align: center;
+}
+.lead{
+  font-family: "Cooper Black", Franklin Gothic Medium;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+p{
+  font-family: "Cooper Black", Franklin Gothic Medium;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+}
+form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -250px;
+  width: 500px;
+  height: 200px;
+  border: 4px dashed #fff;
+}
+form p{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 190px;
+  color: #ffffff;
+  font-family: Arial;
+}
+form input{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+}
+form button{
+  margin: 0;
+  color: #fff;
+  background: #16a085;
+  border: none;
+  width: 508px;
+  height: 35px;
+  margin-top: -20px;
+  margin-left: -4px;
+  border-radius: 4px;
+  border-bottom: 4px solid #117A60;
+  transition: all .2s ease;
+  outline: none;
+}
+form button:hover{
+  background: #149174;
+	color: #0C5645;
+}
+form button:active{
+  border:0;
+}
