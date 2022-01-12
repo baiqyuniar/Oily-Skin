@@ -13,6 +13,8 @@ from keras.applications.imagenet_utils import preprocess_input, decode_predictio
 from keras.models import load_model
 from keras.preprocessing import image
 
+port = int(os.environ.get('PORT', 5000))
+
 config = tf.compat.v1.ConfigProto()
 config.gpu_options.allow_growth=True
 session = tf.compat.v1.Session(config=config)
