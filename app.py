@@ -37,7 +37,6 @@ def detect_face(img):
 
 # to add border to photo
     borderType = cv2.BORDER_CONSTANT
-    
     if len(face_rects)==0:
         global faces
         faces = face_img
@@ -132,12 +131,7 @@ def upload_file():
             str, val, face = return_prediction(model,detect_face,fileloc)
             return render_template('predict/index.html', detect = face, result = str, pred = val, file = fileloc)
 
-@app.route('/about_us', methods=['GET', 'POST'])
-def about():
-    return render_template('about_us/index.html')
-
 #For API usage
-
 @app.route('/api', methods=['POST'])
 def api():
     if request.method == 'POST':
